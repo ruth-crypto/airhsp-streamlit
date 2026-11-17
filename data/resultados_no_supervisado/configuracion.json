@@ -1,0 +1,31 @@
+{
+  "periodo": 20260101,
+  "perfiles": 56482,
+  "variables": [
+    "CANTIDAD_TOTAL",
+    "ING_IMPONIBLE_PERM_MENSUAL_PER_CAPITA",
+    "ING_NO_IMPONIBLE_PERM_MENSUAL_PER_CAPITA",
+    "INCENTIVO_UNICO_MENSUAL_PER_CAPITA",
+    "GUARDIAS_HOSPITALARIAS_MENSUAL_PER_CAPITA",
+    "ESCOLARIDAD_ANUAL_PER_CAPITA",
+    "AGUINALDO_GRATIFICACION_ANUAL_PER_CAPITA",
+    "OTROS_ING_OCASIONALES_ANUAL_PER_CAPITA",
+    "APORTE_PERM_MENSUAL_PER_CAPITA",
+    "APORTE_OCASIONAL_ANUAL_PER_CAPITA",
+    "COSTO_TOTAL_ANUAL_PER_CAPITA"
+  ],
+  "excluidas": [],
+  "estado_y_target_en_fit": false,
+  "log1p": true,
+  "PCA_varianza_objetivo": 0.9,
+  "componentes": 7,
+  "k_referencia": 8,
+  "muestra_comparacion": 2500,
+  "semillas": [
+    42,
+    43,
+    44
+  ],
+  "sha256_fuente": "43bcf33c983aec5656f99bf1a6bb5d99a971d27524278bfcd9b23ebd1d7cee8c",
+  "alcance": "Segmentación descriptiva económica y de tamaño; no modelo de riesgo."
+}

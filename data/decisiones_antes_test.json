@@ -1,0 +1,21 @@
+{
+  "campeon": "LightGBM (ajustado)",
+  "criterios": {
+    "Defecto": 0.5,
+    "Máx. F1": 0.5242565666767163,
+    "Máx. F2": 0.06560373980037702,
+    "Recall ≥ 0.80": 0.06037930850442467,
+    "Recall ≥ 0.90": 0.013459020106106322,
+    "Mínimo costo": 0.026580645908046496
+  },
+  "FN": 100,
+  "FP": 5,
+  "semilla": 42,
+  "sensibilidades": [
+    "todos",
+    "sin_etiquetas_agosto",
+    "sin_perfil_extremo_agosto",
+    "etiqueta_hipotetica"
+  ],
+  "advertencia": "El test se exploró históricamente. Reservarlo ahora no restablece independencia retrospectiva."
+}

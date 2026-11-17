@@ -1,0 +1,11 @@
+estrategia,modelo,PR_AUC_val,precision@0.5,recall@0.5,umbral_val,precision@opt,recall@opt,f1@opt,t_s
+Sin tratamiento,Logística,0.664,0.765,0.703,0.216,0.766,0.719,0.742,11.3
+Sin tratamiento,LightGBM,0.744,0.766,0.701,0.444,0.764,0.712,0.737,37.4
+Peso de clase,Logística,0.677,0.213,0.888,0.961,0.756,0.705,0.73,30.7
+Peso de clase,LightGBM,0.732,0.585,0.774,0.903,0.763,0.719,0.74,35.7
+Undersampling (1:5),Logística,0.672,0.656,0.725,0.725,0.761,0.716,0.738,8.0
+Undersampling (1:5),LightGBM,0.725,0.633,0.75,0.817,0.751,0.719,0.735,19.1
+Oversampling (1:5),Logística,0.667,0.697,0.722,0.734,0.765,0.716,0.74,14.7
+Oversampling (1:5),LightGBM,0.738,0.703,0.733,0.841,0.784,0.684,0.731,40.0
+SMOTE (1:5),Logística,0.658,0.68,0.722,0.784,0.764,0.715,0.739,19.2
+SMOTE (1:5),LightGBM,0.741,0.754,0.708,0.442,0.746,0.718,0.732,54.1
